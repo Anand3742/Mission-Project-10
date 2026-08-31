@@ -11,7 +11,7 @@ import { Router } from '@angular/router';
 })
 export class SignupComponent {
 
-    endpoint = "http://localhost:8081/Auth/signUp";
+    endpoint = "http://localhost:8080/Auth/signUp";
 
   form: any = {
     error: false,
