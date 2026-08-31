@@ -12,4 +12,4 @@ COPY target/ORSProject-10-0.0.1-SNAPSHOT.jar /ORSProject-10-0.0.1-SNAPSHOT.jar
 EXPOSE 8080
 
 # define the command to run the Spring Boot application 
-ENTRYPOINT ["java","-jar","ORSProject-10-0.0.1-SNAPSHOT.jar"]
+ENTRYPOINT ["java", "-jar", "/ORSProject-10-0.0.1-SNAPSHOT.jar"]
