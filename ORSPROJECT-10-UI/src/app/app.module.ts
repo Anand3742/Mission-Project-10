@@ -59,7 +59,7 @@ import { BusReservationComponent } from './busreservation/busreservation.compone
 import { BusReservationListComponent } from './busreservation/bus-reservation-list.component';
 import { ElectricityBillComponent } from './electricity-bill/electricity-bill.component';
 import { ElectricityBillListComponent } from './electricity-bill/electricity-bill-list.component';
-import { GymManagementComponent } from './gym-management/gym-management.component';
+import { GymManagementComponent } from './gym-management/gym-management.component'; 
 import { GymManagementListComponent } from './gym-management/gym-management-list.component';
 import { AtmSystemComponent } from './atmsystem/atmsystem.component';
 import { AtmSystemListComponent } from './atmsystem/atmsystem-list.component';
