@@ -10,6 +10,6 @@ import com.rays.dto.GymManagementDTO;
 
 @Service
 @Transactional
-public class GymManagementServiceImpl extends BaseServiceImpl<GymManagementDTO, GymManagementDAOInt> implements GymManagementServiceInt{
+public class GymManagementServiceImpl extends BaseServiceImpl<GymManagementDTO, GymManagementDAOInt> implements GymManagementServiceInt{ 
 
 }
