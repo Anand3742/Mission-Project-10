@@ -59,7 +59,7 @@ import { TrackingListComponent } from './tracking/tracking-list.component';
 
 
 
-const routes: Routes = [
+const routes: Routes = [ 
   {
     path: '',
     pathMatch: 'full',
