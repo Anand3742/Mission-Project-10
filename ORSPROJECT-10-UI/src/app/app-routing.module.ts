@@ -59,7 +59,8 @@ import { TrackingListComponent } from './tracking/tracking-list.component';
 
 
 
-const routes: Routes = [
+
+const routes: Routes = [ 
   {
     path: '',
     pathMatch: 'full',
@@ -397,4 +398,8 @@ const routes: Routes = [
   imports: [RouterModule.forRoot(routes, { useHash: true })],
   exports: [RouterModule]
 })
+<<<<<<< HEAD
 export class AppRoutingModule { } 
+=======
+export class AppRoutingModule { }
+>>>>>>> 03d2708be52f3cbe197adba3915e60c8c76b394d

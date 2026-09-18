@@ -9,7 +9,7 @@ import com.rays.common.BaseDTO;
 
 @Entity
 @Table(name = "ST_GYMMANAGEMENT")
-public class GymManagementDTO extends BaseDTO {
+public class GymManagementDTO extends BaseDTO { 
 	
 	
 	@Column(name = "memberId", length = 55)

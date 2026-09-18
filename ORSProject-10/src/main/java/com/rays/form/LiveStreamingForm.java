@@ -37,7 +37,7 @@ public class LiveStreamingForm extends BaseForm {
 		this.streamerName = streamerName;
 	}
 
-	public String getViewersCount() {
+	public String getViewersCount() { 
 		return viewersCount;
 	}
 

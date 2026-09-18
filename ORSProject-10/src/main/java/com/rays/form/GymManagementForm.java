@@ -10,7 +10,7 @@ import com.rays.common.BaseDTO;
 import com.rays.common.BaseForm;
 import com.rays.dto.GymManagementDTO;
 
-public class GymManagementForm extends BaseForm {
+public class GymManagementForm extends BaseForm { 
 	
 	@NotEmpty(message = "memberId is required")
 	private String memberId ;

@@ -13,7 +13,7 @@ import com.rays.common.BaseDAOImpl;
 import com.rays.dto.GymManagementDTO;
 
 @Repository
-public class GymManagementDAOImpl extends BaseDAOImpl<GymManagementDTO>  implements GymManagementDAOInt{
+public class GymManagementDAOImpl extends BaseDAOImpl<GymManagementDTO>  implements GymManagementDAOInt{ 
 
 	@Override
 	protected List<Predicate> getWhereClause(GymManagementDTO dto, CriteriaBuilder builder,

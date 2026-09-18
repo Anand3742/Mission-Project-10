@@ -9,7 +9,7 @@ import { ActivatedRoute } from '@angular/router';
   templateUrl: './gym-management.component.html',
   
 })
-export class GymManagementComponent extends BaseCtl{
+export class GymManagementComponent extends BaseCtl{ 
 
   constructor(public locator: ServiceLocatorService, route: ActivatedRoute) {
     super(locator.endpoints.GYMMANAGEMENT, locator, route);

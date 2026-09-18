@@ -5,7 +5,7 @@ import { ServiceLocatorService } from '../service-locator.service';
 
 @Component({
   selector: 'app-faculty-list',
-  templateUrl: './gym-management-list.component.html'
+  templateUrl: './gym-management-list.component.html' 
 })
 export class GymManagementListComponent extends BaseListCtl {
 

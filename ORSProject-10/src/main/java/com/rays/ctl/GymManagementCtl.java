@@ -36,7 +36,7 @@ public class GymManagementCtl extends BaseCtl<GymManagementDTO, GymManagementFor
 		}catch (Exception e) {
 			res.addMessage(e.getMessage());
 			res.setSuccess(false);
-			e.printStackTrace();
+			e.printStackTrace(); 
 		}
 		
 		
