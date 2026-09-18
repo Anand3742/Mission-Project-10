@@ -26,7 +26,7 @@ import com.rays.service.JWTUserDetailsService;
 /**
  * Filter for JWT token validation and authentication.
  * 
- * @author Akshat Saxena
+ * @author Anand Choudhary
  */
 @Component
 public class JWTRequestFilter extends OncePerRequestFilter {

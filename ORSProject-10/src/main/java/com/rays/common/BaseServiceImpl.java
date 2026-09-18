@@ -10,7 +10,7 @@ import org.springframework.transaction.annotation.Transactional;
  *
  * @param <T> DTO type extending {@link BaseDTO}
  * @param <D> DAO type extending {@link BaseDAOInt}
- * @author Akshat Saxena
+ * @author Anand Choudhary
  */
 @Transactional
 public abstract class BaseServiceImpl<T extends BaseDTO, D extends BaseDAOInt<T>> implements BaseServiceInt<T> {

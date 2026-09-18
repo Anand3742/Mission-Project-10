@@ -86,6 +86,5 @@ public class LiveStreamingDTO extends BaseDTO {
 		return "Live Streaming";
 	}
 	
-	
 
 }

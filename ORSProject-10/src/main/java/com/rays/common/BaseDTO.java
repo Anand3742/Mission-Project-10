@@ -12,7 +12,7 @@ import org.hibernate.annotations.GenericGenerator;
 /**
  * Base DTO class providing common fields and audit trail functionality.
  * 
- * @author Akshat Saxena
+ * @author Anand Choudhary
  */
 @MappedSuperclass
 public abstract class BaseDTO implements DropdownList {

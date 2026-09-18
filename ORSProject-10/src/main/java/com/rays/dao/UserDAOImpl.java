@@ -16,7 +16,7 @@ import com.rays.service.AttachmentServiceInt;
 /**
  * DAO implementation for User operations.
  *
- * @author Akshat Saxena
+ * @author Anand Choudhary
  */
 @Repository
 public class UserDAOImpl extends BaseDAOImpl<UserDTO> implements UserDAOInt {

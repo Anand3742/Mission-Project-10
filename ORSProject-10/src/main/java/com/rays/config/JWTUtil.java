@@ -19,7 +19,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
  * tokens. Secret and expiration are injected from application properties
  * ({@code jwt.secret}, {@code jwt.expiration}).
  *
- * @author akshat saxena
+ * @author Anand Choudhary
  */
 @Component
 public class JWTUtil {

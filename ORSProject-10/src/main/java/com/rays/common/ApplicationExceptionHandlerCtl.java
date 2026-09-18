@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestControllerAdvice;
 /**
  * Handles application propagated exceptions
  * 
- * Akshat Saxena
+ * Anand Choudhary
  *
  */
 @RestControllerAdvice

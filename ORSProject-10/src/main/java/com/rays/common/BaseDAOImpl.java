@@ -20,7 +20,7 @@ import com.rays.dto.UserDTO;
  * Abstract base DAO providing common CRUD and search operations.
  *
  * @param <T>    DTO type extending {@link BaseDTO}
- * @author Akshat Saxena
+ * @author Anand Choudhary
  */
 public abstract class BaseDAOImpl<T extends BaseDTO> implements BaseDAOInt<T> {
 

@@ -6,7 +6,7 @@ import java.util.Map;
 /**
  * Response wrapper class for API responses.
  * 
- * @author Akshat Saxena
+ * @author Anand Choudhary
  */
 public class ORSResponse {
 

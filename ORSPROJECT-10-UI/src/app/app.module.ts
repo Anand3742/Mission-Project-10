@@ -138,9 +138,9 @@ TrackingComponent,
 TrackingListComponent,
 
    
-    
-
   ],
+
+  
   imports: [
     BrowserModule,
     AppRoutingModule,

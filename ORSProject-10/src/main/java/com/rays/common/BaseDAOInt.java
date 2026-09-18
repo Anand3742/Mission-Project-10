@@ -5,7 +5,7 @@ import java.util.List;
 /**
  * Base DAO interface for CRUD operations and search functionality.
  * 
- * @author Akshat Saxena
+ * @author Anand Choudhary
  * @param <T> DTO type extending BaseDTO
  */
 public interface BaseDAOInt<T extends BaseDTO> {

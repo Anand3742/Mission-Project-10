@@ -27,7 +27,7 @@ import com.rays.dto.UserDTO;
  * @param <T> DTO type extending {@link BaseDTO}
  * @param <F> Form type extending {@link BaseForm}
  * @param <S> Service type extending {@link BaseServiceInt}
- * @author Akshat Saxena
+ * @author Anand Choudhary
  */
 public class BaseCtl<T extends BaseDTO, F extends BaseForm, S extends BaseServiceInt<T>> {
 
