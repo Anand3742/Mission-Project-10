@@ -12,7 +12,5 @@ import com.rays.dto.LiveStreamingDTO;
 @Service
 @Transactional
 public class LiveStreamingServiceImpl extends BaseServiceImpl<LiveStreamingDTO, LiveStreamingDAOInt> implements LiveStreamingServiceInt {
-
-	
 	
 }

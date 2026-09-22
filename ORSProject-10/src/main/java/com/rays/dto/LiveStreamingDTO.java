@@ -22,6 +22,7 @@ public class LiveStreamingDTO extends BaseDTO {
 	@Column(name = "status",length = 55)
 	private String status;
 
+	
 
 
 	public String getStreamCode() {

@@ -14,6 +14,4 @@ export class LiveStreamingComponent extends BaseCtl {
     super(locator.endpoints.LIVESTREAMING, locator, route);
   }
 
-
-
 }

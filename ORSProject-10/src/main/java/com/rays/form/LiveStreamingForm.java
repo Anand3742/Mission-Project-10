@@ -20,6 +20,7 @@ public class LiveStreamingForm extends BaseForm {
 
 	@NotEmpty(message = "status is requeired")
 	private String status;
+	
 
 	public String getStreamCode() {
 		return streamCode;
