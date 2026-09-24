@@ -23,8 +23,6 @@ public class LiveStreamingDTO extends BaseDTO {
 	private String status;
 
 	
-
-
 	public String getStreamCode() {
 		return streamCode;
 	}

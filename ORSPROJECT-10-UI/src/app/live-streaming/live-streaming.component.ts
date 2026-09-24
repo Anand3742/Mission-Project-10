@@ -12,6 +12,6 @@ export class LiveStreamingComponent extends BaseCtl {
 
   constructor(public locator: ServiceLocatorService, route: ActivatedRoute) {
     super(locator.endpoints.LIVESTREAMING, locator, route);
-  }
+  } 
 
 }

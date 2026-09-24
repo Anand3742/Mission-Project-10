@@ -19,8 +19,6 @@ import com.rays.service.LiveStreamingServiceInt;
 public class LiveStreamingCtl extends BaseCtl<LiveStreamingDTO, LiveStreamingForm, LiveStreamingServiceInt>{
 
 	
-	
-	
 	@GetMapping("preload")
 	public ORSResponse preload () {
 		

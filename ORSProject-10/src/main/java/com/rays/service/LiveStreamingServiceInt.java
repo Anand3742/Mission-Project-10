@@ -5,5 +5,4 @@ import com.rays.dto.LiveStreamingDTO;
 
 public interface LiveStreamingServiceInt extends BaseServiceInt<LiveStreamingDTO>{
 	
-
 }

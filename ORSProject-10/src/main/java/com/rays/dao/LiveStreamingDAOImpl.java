@@ -33,8 +33,6 @@ public class LiveStreamingDAOImpl extends BaseDAOImpl<LiveStreamingDTO> implemen
 			whereCondition.add(builder.like(qRoot.get("streamerName"), dto.getStreamerName() +"%"));
 		}
 
-	
-		
 
 	return whereCondition; 
 }
