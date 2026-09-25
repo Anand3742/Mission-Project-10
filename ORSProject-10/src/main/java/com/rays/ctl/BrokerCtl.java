@@ -39,8 +39,6 @@ public class BrokerCtl extends BaseCtl<BrokerDTO, BrokerForm, BrokerServiceInt> 
 			e.printStackTrace();
 		}
 		
-		
-		
 		return res;
 		
 	}

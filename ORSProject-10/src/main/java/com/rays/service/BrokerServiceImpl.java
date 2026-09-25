@@ -12,5 +12,6 @@ import com.rays.dto.BrokerDTO;
 @Service
 @Transactional
 public class BrokerServiceImpl extends BaseServiceImpl<BrokerDTO, BrokerDAOInt> implements BrokerServiceInt {
+	
 
 }

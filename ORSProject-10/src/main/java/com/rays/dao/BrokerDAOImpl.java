@@ -14,7 +14,7 @@ import com.rays.dto.BrokerDTO;
 
 
 @Repository
-public class BrokerDAOImpl extends BaseDAOImpl<BrokerDTO> implements BrokerDAOInt {
+public class BrokerDAOImpl extends BaseDAOImpl<BrokerDTO> implements BrokerDAOInt {  
 
 	@Override
 	protected List<Predicate> getWhereClause(BrokerDTO dto, CriteriaBuilder builder, Root<BrokerDTO> qRoot) {

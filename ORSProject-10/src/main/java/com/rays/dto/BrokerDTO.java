@@ -10,6 +10,7 @@ import com.rays.common.BaseDTO;
 @Table(name = "ST_BROKER")
 public class BrokerDTO extends BaseDTO{
 	
+	
 	@Column(name = "brokerId" ,length = 55)
 	private String  brokerId;
 

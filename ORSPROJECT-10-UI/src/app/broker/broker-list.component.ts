@@ -11,6 +11,6 @@ export class BrokerListComponent extends BaseListCtl {
 
   constructor(locator: ServiceLocatorService, route: ActivatedRoute) {
     super(locator.endpoints.BROKER, locator, route);
-  }
+  }  
 
 }

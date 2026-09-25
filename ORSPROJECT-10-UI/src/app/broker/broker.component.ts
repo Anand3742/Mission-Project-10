@@ -15,4 +15,5 @@ export class BrokerComponent extends BaseCtl{
     super(locator.endpoints.BROKER ,locator, route);
   }
 
+  
 }
