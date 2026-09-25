@@ -70,7 +70,6 @@ import { BrokerListComponent } from './broker/broker-list.component';
 import { TrackingComponent } from './tracking/tracking.component';
 import { TrackingListComponent } from './tracking/tracking-list.component';
 
- 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
 }

@@ -13,4 +13,5 @@ export class LiveStreamingListComponent extends BaseListCtl {
     super(locator.endpoints.LIVESTREAMING, locator, route);
   }
    
+  
 }
