@@ -4,7 +4,6 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import javax.servlet.http.HttpSession;
 import javax.validation.Valid;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,13 +11,10 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.validation.BindingResult;
 import org.springframework.validation.FieldError;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestParam;
-
-import com.rays.dto.UserDTO;
 
 /**
  * Abstract base controller providing common REST endpoints
@@ -69,25 +65,7 @@ public class BaseCtl<T extends BaseDTO, F extends BaseForm, S extends BaseServic
 
     }
 
-    /**
-     * Sets the user context from the HTTP session before each request.
-     * Falls back to a default user if session has no context.
-     *
-     * @param session current HTTP session
-     */
-    @ModelAttribute
-    public void setUserContext(HttpSession session) {
-
-        userContext = (UserContext) session.getAttribute("usercontext");
-
-        if (userContext == null) {
-            UserDTO dto = new UserDTO();
-            dto.setLoginId("sunilos@gmail.com");
-            userContext = new UserContext(dto);
-
-        }
-
-    }
+    
 
     /**
      * Saves or updates an entity based on whether an ID is present.

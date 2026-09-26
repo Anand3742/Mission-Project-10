@@ -12,20 +12,20 @@ import com.rays.dto.GymManagementDTO;
 
 public class GymManagementForm extends BaseForm { 
 	
-	@NotEmpty(message = "memberId is required")
+	@NotEmpty(message = "Member Id is required")
 	private String memberId ;
 
-	@NotEmpty(message = "memberName is required")
+	@NotEmpty(message = "Member Name is required")
 	private String memberName ;
 
-	@NotEmpty(message = "trainerName is required")
+	@NotEmpty(message = "Trainer Name is required")
 	private String  trainerName;
 
 	@Min(1)
-	@NotNull(message = "membershipFee is required")
+	@NotNull(message = "Membership Fee is required")
 	private double membershipFee;
 
-	@NotEmpty(message = "workoutType is required")
+	@NotEmpty(message = "Workout Type is required")
 	private String workoutType;
 
 	public String getMemberId() {

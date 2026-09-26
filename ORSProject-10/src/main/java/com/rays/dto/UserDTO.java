@@ -1,6 +1,5 @@
 package com.rays.dto;
 
-import java.sql.Time;
 import java.sql.Timestamp;
 import java.util.Date;
 
