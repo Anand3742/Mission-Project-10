@@ -13,3 +13,4 @@ import com.rays.dto.GymManagementDTO;
 public class GymManagementServiceImpl extends BaseServiceImpl<GymManagementDTO, GymManagementDAOInt> implements GymManagementServiceInt{ 
 
 }
+

@@ -39,6 +39,8 @@ public class GymManagementDAOImpl extends BaseDAOImpl<GymManagementDTO>  impleme
 		}
 		
 		
+		
+		
 	
 
 	return whereCondition;

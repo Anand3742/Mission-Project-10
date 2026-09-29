@@ -10,7 +10,7 @@ import { ServiceLocatorService } from '../service-locator.service';
 export class GymManagementListComponent extends BaseListCtl {
 
   constructor(locator: ServiceLocatorService, route: ActivatedRoute) {
-    super(locator.endpoints.GYMMANAGEMENT, locator, route);
+    super(locator.endpoints.GYMMANAGEMENT, locator, route); 
   }
 
 }

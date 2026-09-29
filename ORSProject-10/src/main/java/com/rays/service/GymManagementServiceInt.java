@@ -5,4 +5,5 @@ import com.rays.dto.GymManagementDTO;
 
 public interface GymManagementServiceInt extends BaseServiceInt<GymManagementDTO>{ 
 
-}
+} 
+

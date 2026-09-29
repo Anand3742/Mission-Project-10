@@ -14,5 +14,5 @@ export class GymManagementComponent extends BaseCtl{
   constructor(public locator: ServiceLocatorService, route: ActivatedRoute) {
     super(locator.endpoints.GYMMANAGEMENT, locator, route);
   }
-
+ 
 }
